@@ -1,0 +1,26 @@
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+
+# Transformers and model utilities
+transformers>=4.30.0
+huggingface_hub>=0.16.0
+
+# Pruning and optimization
+torch-pruning>=1.2.0
+
+# Command line argument parsing
+typed-argument-parser>=1.8.0
+
+# Image processing
+Pillow>=9.5.0
+
+# Logging and monitoring
+tensorboard>=2.13.0
+
+# Optional: For Flash Attention (requires compatible GPU)
+# flash-attn>=2.0.0
+
+# Optional: For xformers optimization
+# xformers>=0.0.20

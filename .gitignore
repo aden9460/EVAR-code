@@ -1,0 +1,70 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# PyTorch
+*.pth
+*.pth.tar
+*.pt
+*.ckpt
+
+# Logs
+*.log
+log/
+tb*/
+tensorboard/
+
+# Data and outputs
+data/
+dataset/
+datasets/
+ckpt/
+checkpoint/
+checkpoints/
+local_output*
+_auto_*
+_vis_cached/
+img*/
+
+# Editor and IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Model-specific
+llava/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.cache
+.cache/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Wandb
+wandb/
